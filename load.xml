@@ -1,0 +1,26 @@
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+    
+    <!-- List of buffs and spells.  Used from the excellent OmniCD addon -->
+    <Script file='Spells_Mainline.lau' />
+
+    <!-- The base application name space and guts -->
+    <Script file='core.lua' />
+
+    <!-- Functions that manage the options frames -->
+    <Script file='addonOptions.lua' />
+
+    <!-- Functions that return Ace3 options tables and other gui elements -->
+    <Script file='gui.lua' />
+        
+    <!-- Functions that find and present the buffs and cooldowns -->
+    <Script file='buffs.lua' />
+
+    <!-- Utility functions -->
+    <Script file='utils.lua' />
+
+    <!-- Default application configuration -->
+    <Script file='config.lua' />
+
+</Ui>
