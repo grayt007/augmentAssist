@@ -1,19 +1,17 @@
 ## Interface: 100107
 ## Name: augmentAssist
-## Author: ??
 ## Title: |cffD7BEA5augment|r Assist
-## Notes: Inspired by targetAssist
-## OptionalDeps: Ace3, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, SharedMedia, SharedMediaAdditionalFonts, LibRangeCheck-2.0, LibGroupInSpecT, LibKeyBound-1.0, Clique, oRA3
+## OptionalDeps: Ace3, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, SharedMedia, SharedMediaAdditionalFonts, LibRangeCheck-2.0, LibGroupInSpecT, LibKeyBound-1.0
 ## SavedVariables: augmentAssistDb
 ## IconTexture: "Interface\\AddOns\\augmentAssist\\Media\\Textures\\logo_transparent"
-## Version: 1.4.20
+## Version: 1.0
 
 embeds.xml
 
-core.lua
-spells_db.lua
-testData_db.lua
-options.lua
-gui.lua
-utils.lua
-config.lua
+core/core.lua
+core/spells_db.lua
+modules/testData_db.lua
+modules/options.lua
+modules/gui.lua
+core/utils.lua
+modules/config.lua
