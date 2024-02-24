@@ -3,7 +3,7 @@
 
     
     <!-- The base application name space and guts -->
-    <Script file='/core/core.lua' />
+    <Script file='core/core.lua' />
 
     <!-- Functions that manage the options frames -->
     <Script file='modules/options.lua' />
