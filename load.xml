@@ -1,7 +1,6 @@
 
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 
-    
     <!-- The base application name space and guts -->
     <Script file='core/core.lua' />
 
